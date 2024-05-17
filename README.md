@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Proyecto react de mentoría
 
 ## Para instalar las dependencias
 
