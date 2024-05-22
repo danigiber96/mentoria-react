@@ -1,5 +1,6 @@
 import { Patita } from "../Patita/Patita"
-
+//import misEstilos from "./Header.module.css" 
+import "./Header.css"
 
 export function Header(){
     return(
@@ -19,5 +20,16 @@ export function Header(){
         </div>
         </div>
 
+    )
+}
+export function Menu(){
+    return(
+        <div id="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
     )
 }
