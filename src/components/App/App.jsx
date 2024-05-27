@@ -1,6 +1,7 @@
 import { Header } from "../Header/Header";
 import { Ficha } from "../Ficha/Ficha";
-function HolaMundo() {
+
+function App() {
  
   const misAnimales = [
     {
@@ -39,4 +40,4 @@ function HolaMundo() {
   );
 }
 
-export default HolaMundo;
+export default App;
